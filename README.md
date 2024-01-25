@@ -1,3 +1,4 @@
+# Question 1
 ## Sales Table
 
 | Column Name | Type    |
@@ -23,7 +24,7 @@
 - product_id is the primary key (column with unique values) of this table.
 - Each row of this table indicates the product name of each product.
 
-## Query Solution
+## Solution
 
 ```sql
 SELECT p.product_name, s.year, s.price
